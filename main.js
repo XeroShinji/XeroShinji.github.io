@@ -7,7 +7,7 @@ canvas.height = window.innerHeight;
 
 // Load bird image
 const birdImage = new Image();
-birdImage.src = "Bird.png"; // Replace with the actual path to your bird image
+birdImage.src = "kiss.png"; // Replace with the actual path to your bird image
 
 // Load two pipe images
 const upperPipeImage = new Image();
@@ -22,10 +22,10 @@ const gapSize = Math.random() * (200 - 150) + 150;
 const bird = {
   x: 50,
   y: canvas.height / 2 - 25, // Adjust the position for better alignment
-  width: 30, // Adjust the bird's width based on your image size
-  height: 30, // Adjust the bird's height based on your image size
+  width: 50, // Adjust the bird's width based on your image size
+  height: 50, // Adjust the bird's height based on your image size
   velocity: 0,
-  gravity: 0.6,
+  gravity: 0.5,
   jumpStrength: 9,
 };
 
